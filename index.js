@@ -137,6 +137,8 @@ function endGame() {
   alert("YOU LOSE!")
   START.style.display = 'initial'
   DODGER.style.left = '180px'
+  var count = document.getElementById('count')
+  count.innerHTML = 0;
 }
 
 function moveDodger(e) {
