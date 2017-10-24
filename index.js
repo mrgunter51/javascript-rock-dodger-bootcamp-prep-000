@@ -104,7 +104,8 @@ function createRock(x) {
      else{
        rock.remove()
        ROCKS.shift()
-       document.getElementById('count') += 1
+       var count = document.getElementById('count')
+       count.innerHTML = parseInt(count.innerHTML) + 1
      }
   }
 
