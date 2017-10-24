@@ -134,6 +134,7 @@ function endGame() {
   window.removeEventListener('keydown', moveDodger)
   alert("YOU LOSE!")
   START.style.display = 'initial'
+  DODGER.style.left = '180px'
 }
 
 function moveDodger(e) {
