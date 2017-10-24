@@ -86,6 +86,9 @@ function createRock(x) {
      * we should call endGame()
      */
     rock.style.top = `${top += 2}px`
+    if(START.style.display === 'initial'){
+      return
+    }
 
     if(checkCollision(rock) === true){
       endGame()
