@@ -85,7 +85,8 @@ function createRock(x) {
      * If a rock collides with the DODGER,
      * we should call endGame()
      */
-    rock.style.top = `${top += 50}px`
+    var count = document.getElementById('count')
+    rock.style.top = `${top += parseInt(count.innerHTML)}px`
     if(START.style.display === 'initial'){
       return
     }
