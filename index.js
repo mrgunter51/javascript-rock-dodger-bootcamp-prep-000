@@ -127,7 +127,6 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval)
-  //var l = ROCKS.length
   var rockObjs = document.querySelectorAll(".rock")
   for(i=0;i<rockObjs.length;i++){
     rockObjs[i].remove()
