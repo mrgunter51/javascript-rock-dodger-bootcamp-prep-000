@@ -26,6 +26,7 @@
 #count {
   color: white;
   font-size: 2rem;
+  position: left;
 }
 
 .rock {
