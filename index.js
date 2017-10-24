@@ -87,7 +87,7 @@ function createRock(x) {
      */
     rock.style.top = `${top += 2}px`
     if(gameInterval === 0){
-      break
+      return
     }
 
     if(checkCollision(rock) === true){
