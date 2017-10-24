@@ -23,6 +23,11 @@
   top: 4rem;
 }
 
+#count {
+  color: white;
+  font-size: 2rem;
+}
+
 .rock {
   width: 20px;
   height: 20px;
