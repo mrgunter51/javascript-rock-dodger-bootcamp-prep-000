@@ -89,13 +89,12 @@ function createRock(x) {
 
       if(checkCollision(rock) === true){
         endGame()
-        rock.style.top = 500
       }
     /**
      * Otherwise, if the rock hasn't reached the bottom of
      * the GAME, we want to move it again.
      */
-     if(positionToInteger(rock.style.top) < 400){
+     else if(positionToInteger(rock.style.top) < 400){
        window.requestAnimationFrame(moveRock)
      }
     /**
