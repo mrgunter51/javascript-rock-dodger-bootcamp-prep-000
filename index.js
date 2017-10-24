@@ -101,7 +101,7 @@ function createRock(x) {
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
      */
-     else if(positionToInteger(rock.style.top) >= 400){
+     else{
        rock.remove()
        ROCKS.shift()
        var count = document.getElementById('count')
